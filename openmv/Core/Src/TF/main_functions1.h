@@ -1,0 +1,13 @@
+// This is a TensorFlow Lite model file that has been converted into a C data
+// array using the tensorflow.lite.util.convert_bytes_to_c_source() function.
+// This form is useful for compiling into a binary for devices that don't have a
+// file system.
+
+#ifndef TENSORFLOW_LITE_MAIN_FUNCTIONS_H_
+#define TENSORFLOW_LITE_MAIN_FUNCTIONS_H_
+
+extern int setup1(void);
+extern int main_loop1(void);
+extern int main_single_event(int sample_idx, float sys_votage);
+
+#endif  // TENSORFLOW_LITE_MAIN_FUNCTIONS_H_
